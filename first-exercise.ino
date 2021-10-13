@@ -1,11 +1,3 @@
-/*
-  Lezione 3: Led Semaphore on Breadboard
-  This semaphore it is composed of 3 different LED (i.e., Green, 
-  Red and Yellow)
-  created 9 Feb 2019
-  by Andrea Primavera
-*/
-
 int pinLedGreen = 4;
 int pinLedYellow = 5;
 int pinLedRed = 6;
