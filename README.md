@@ -1,3 +1,3 @@
 # Arduino
-!<strong>About [alexxcyb/Arduino](https://github.com/alexxcyb/Arduino)</strong>
+<strong>About [alexxcyb/Arduino](https://github.com/alexxcyb/Arduino)</strong>
 <p></p>
