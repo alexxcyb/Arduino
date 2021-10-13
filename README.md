@@ -1,3 +1,3 @@
 # Arduino
 
-> [Arduino](https://github.com/alexxcyb/Arduino)
+> **How to use [Arduino](https://github.com/alexxcyb/Arduino)**
