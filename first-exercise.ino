@@ -1,6 +1,6 @@
-int pinLedGreen = 4;
-int pinLedYellow = 5;
-int pinLedRed = 6;
+int pinLedGreen = 11;
+int pinLedYellow = 12;
+int pinLedRed = 10;
 
 void setup() {
   pinMode(pinLedGreen, OUTPUT);
@@ -9,7 +9,7 @@ void setup() {
 }
 
 void loop() {
-  int greenTime  = 5000;
+  int greenTime  = 4000;
   int yellowTime = 1000;
   int redTime    = 5000;
   
