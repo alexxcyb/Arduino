@@ -1,6 +1,6 @@
-int pinLedGreen = 11;
-int pinLedYellow = 12;
-int pinLedRed = 10;
+# define pinLedGreen 11;
+# define pinLedYellow 12;
+# define pinLedRed 10;
 
 void setup() {
   pinMode(pinLedGreen, OUTPUT);
