@@ -13,11 +13,11 @@ void loop() {
   digitalWrite(Yellow, 0);
   digitalWrite(Green, 0);
   delay(5000);
-  digitalWrite(Green, 0);
+  digitalWrite(Red, 0);
   digitalWrite(Yellow, 1);
   digitalWrite(Green, 0);
   delay(Yellow);
-  digitalWrite(Green, 0);
+  digitalWrite(Red, 0);
   digitalWrite(Yellow, 0);
   digitalWrite(Green, 1);
   delay(Red);
