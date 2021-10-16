@@ -12,7 +12,7 @@ void loop() {
   digitalWrite(Green, 1);
   digitalWrite(Yellow, 0);
   digitalWrite(Green, 0);
-  delay(Green);
+  delay(5000);
   digitalWrite(Green, 0);
   digitalWrite(Yellow, 1);
   digitalWrite(Green, 0);
