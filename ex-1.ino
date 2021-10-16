@@ -1,6 +1,6 @@
-# define Green 11
-# define Yellow 12
 # define Red 10
+# define Yellow 12
+# define Green 11
 
 void setup() {
   pinMode(Green, OUTPUT);
@@ -9,7 +9,7 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(Green, 1);
+  digitalWrite(Red, 1);
   digitalWrite(Yellow, 0);
   digitalWrite(Green, 0);
   delay(5000);
