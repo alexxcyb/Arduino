@@ -35,13 +35,13 @@ void loop() {
   delay(redTime);
   digitalWrite(pinLedRed, 0);
   
-  digitalWrite(pinLedGreen2, 1);   
+  digitalWrite(pinLedGreen2, 0);   
   delay(greenTime2);               
-  digitalWrite(pinLedGreen2, 0);     
-  digitalWrite(pinLedYellow2, 1);     
-  delay(yellowTime2);
+  digitalWrite(pinLedGreen2, 1);     
   digitalWrite(pinLedYellow2, 0);     
-  digitalWrite(pinLedRed2, 1);     
+  delay(yellowTime2);
+  digitalWrite(pinLedYellow2, 1);     
+  digitalWrite(pinLedRed2, 0);     
   delay(redTime2);
-  digitalWrite(pinLedRed2, 0);  
+  digitalWrite(pinLedRed2, 1);  
 }
