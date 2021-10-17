@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Noto+Sans|Open+Sans:500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  background: white;
+  z-index: 1;
+  margin-bottom: 20px;
+  border-bottom: 1px solid silver;
+}
+nav label{
+  line-height: 85px;
+  padding: 0 80px;
+  font-size: 50px;
+  color: #0d0d0d;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+}
+nav label a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
+nav span{
+  color: #0089f2;
+}
+.scroll-line{
+  height: 2px;
+  background: #0089f2;
+  margin-bottom: -3px;
+  width: 0%;
+}
+.content{
+  margin-top: 90px;
+  top: 85px;
+  padding: 0 80px;
+}
+.content marquee {
+  font-family: 'Poppins';
+}
+.content marquee a {
+  text-decoration: none;
+  color: #0089f2;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.content marquee a:hover {
+  color: #0066b4;
+}
+.content p{
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.content p a {
+  text-decoration: none;
+  color: #0089f2;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.content p a:hover {
+  color: #0066b4;
+}
+.content h2 {
+  text-decoration: none;
+  color: #0d0d0d;
+  font-family: 'Raleway';
+  font-size: 45px;
+}
+.content h2 a {
+    text-decoration: none;
+    color: #0d0d0d;
+    font-family: 'Raleway';
+    transition: 0.3s;
+}
+.content h2 a:hover {
+    color: #0089f2;
+}
+.content .pagination a {
+  font-size: 18px;
+  color: #0d0d0d;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  transition: 0.3s;
+  color: #0d0d0d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.content .pagination a:hover {
+  color: #fff;
+  background: #0089f2;
+  border-color: #0089f2;
+}
+.content footer{
+  font-size: 18px;
+  padding: 10px;
+  color: #0d0d0d;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+footer a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #0d0d0d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 4pc;
+}
+footer a:hover {
+    color: #0089f2;
+}
